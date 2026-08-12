@@ -1,6 +1,8 @@
-# CathCase
+# CathLab Mentor
 
 Interactive cath lab case library for cardiology residents. Textbook-sourced cases with step-by-step decision making and reference atlas.
+
+**Live:** https://cathcase.vercel.app · **Repo:** https://github.com/Manojponugoti64/cathcase
 
 ## Cases
 
@@ -19,6 +21,7 @@ Interactive cath lab case library for cardiology residents. Textbook-sourced cas
 ## Run locally
 
 ```bash
+git clone https://github.com/Manojponugoti64/cathcase.git
 cd cathcase
 npm install
 npm run dev
@@ -26,15 +29,9 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
-## Deploy to Vercel
+## Deploy
 
-Connected to GitHub — every push to `main` auto-deploys to production.
-
-```bash
-npx vercel
-```
-
-Production: https://cathcase.vercel.app
+Every push to `main` auto-deploys to https://cathcase.vercel.app via Vercel + GitHub.
 
 ## Disclaimer
 

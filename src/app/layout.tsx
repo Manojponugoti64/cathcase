@@ -33,8 +33,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <Header />
         <main className="flex-1">{children}</main>
-        <footer className="border-t border-card-border py-6 text-center text-xs text-muted">
-          CathLab Mentor · Educational workspace · Not a substitute for supervised clinical judgment
+        <footer className="border-t border-card-border py-6 text-center text-xs text-muted space-y-1">
+          <p>
+            CathLab Mentor · Educational workspace · Not a substitute for
+            supervised clinical judgment
+          </p>
+          <a
+            href="https://github.com/Manojponugoti64/cathcase"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-foreground transition-colors"
+          >
+            GitHub
+          </a>
         </footer>
       </body>
     </html>
