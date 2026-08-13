@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const nav = [
+  { href: "/watch", label: "Watch" },
   { href: "/cases", label: "Cases" },
   { href: "/atlas", label: "Atlas" },
 ];

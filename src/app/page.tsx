@@ -26,10 +26,15 @@ export default function HomePage() {
               page that supports the move.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-5">
-              <Link href={`/cases/${featured.slug}`} className="mentor-cta">
-                Start today&apos;s case <span>↗</span>
+              <Link href="/watch/bifurcation-pci" className="mentor-cta">
+                Watch the PCI lesson <span>↗</span>
               </Link>
-              <span className="text-xs text-quiet">12 min · 5 decisions · source-linked</span>
+              <Link
+                href={`/cases/${featured.slug}`}
+                className="text-xs text-cyan hover:text-warm"
+              >
+                Or start today&apos;s case →
+              </Link>
             </div>
           </div>
 
@@ -68,15 +73,15 @@ export default function HomePage() {
         </div>
         <div className="grid gap-3 md:grid-cols-3">
           {[
+            { n: "00", title: "Voiced bifurcation PCI", detail: "Watch the 6-minute branch-vessel walkthrough, then decide.", href: "/watch/bifurcation-pci", state: "WATCH" },
             { n: "01", title: "Bifurcation strategy", detail: "Choose the move before you touch the wire.", href: `/cases/${cases[0].slug}`, state: "READY" },
             { n: "02", title: "Complete heart block", detail: "Stabilise the patient, then decide what stays.", href: `/cases/${cases[1].slug}`, state: "READY" },
-            { n: "03", title: "Jailed side-branch FFR", detail: "Read the physiology behind the angiogram.", href: `/cases/${cases[2].slug}`, state: "READY" },
           ].map((item) => (
             <Link href={item.href} key={item.n} className="module-tile group">
               <div className="flex items-center justify-between"><span className="text-xs tracking-[0.18em] text-cyan">{item.n}</span><span className="text-[9px] tracking-[0.16em] text-coral">{item.state}</span></div>
               <h3 className="mt-12 text-xl font-normal tracking-[-0.04em] text-warm transition-colors group-hover:text-cyan">{item.title}</h3>
               <p className="mt-2 max-w-[230px] text-xs leading-5 text-muted">{item.detail}</p>
-              <div className="mt-8 border-t border-card-border pt-3 text-xs text-quiet">Case · {cases[Number(item.n) - 1].estimatedMinutes} min <span className="float-right text-lg text-cyan">→</span></div>
+              <div className="mt-8 border-t border-card-border pt-3 text-xs text-quiet">{item.n === "00" ? "Lesson · 6 min" : `Case · ${cases[Number(item.n) - 1].estimatedMinutes} min`} <span className="float-right text-lg text-cyan">→</span></div>
             </Link>
           ))}
         </div>

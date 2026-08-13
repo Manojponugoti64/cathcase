@@ -4,6 +4,12 @@ Interactive cath lab case library for cardiology residents. Textbook-sourced cas
 
 **Live:** https://cathcase.vercel.app · **Repo:** https://github.com/Manojponugoti64/cathcase
 
+## Watch
+
+| Lesson | Length | URL |
+|--------|--------|-----|
+| Branch-vessel / bifurcation PCI (voiced) | 6 min | `/watch/bifurcation-pci` |
+
 ## Cases
 
 | Case | Topic | Steps |

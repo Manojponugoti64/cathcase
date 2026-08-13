@@ -37,6 +37,14 @@ export default async function CasePage({ params }: Props) {
           {caseData.title}
         </h1>
         <p className="text-muted text-sm">{caseData.subtitle}</p>
+        {caseData.slug === "lad-om1-bifurcation" && (
+          <Link
+            href="/watch/bifurcation-pci"
+            className="mt-4 inline-block text-sm text-cyan hover:text-warm"
+          >
+            Watch the voiced bifurcation PCI lesson first →
+          </Link>
+        )}
       </div>
       <CasePlayer caseData={caseData} />
     </div>
