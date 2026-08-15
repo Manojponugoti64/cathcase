@@ -57,7 +57,7 @@ export const lessons: Lesson[] = [
     subtitle:
       "A 25-scene electrophysiology walkthrough of reentry, AVNRT, AVRT/WPW, focal atrial tachycardia, ECG localization, wide-complex differentials, acute treatment, EPS maneuvers, and ablation endpoints.",
     durationLabel: "22 min",
-    videoSrc: "/videos/svt-ecg-ep-masterclass-2026-08-15-animated.mp4",
+    videoSrc: "/videos/svt-ecg-ep-masterclass-2026-08-15-animated-web.mp4",
     poster: "/videos/svt-ecg-ep-masterclass-2026-08-15-poster.png",
     subtitleSrc: "/videos/svt-ecg-ep-masterclass-2026-08-15-animated.vtt",
     sources: [
