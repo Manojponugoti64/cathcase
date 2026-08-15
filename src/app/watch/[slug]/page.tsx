@@ -47,6 +47,15 @@ export default async function WatchLessonPage({ params }: Props) {
           poster={lesson.poster}
         >
           <source src={lesson.videoSrc} type="video/mp4" />
+          {lesson.subtitleSrc && (
+            <track
+              kind="subtitles"
+              src={lesson.subtitleSrc}
+              srcLang="en"
+              label="English"
+              default
+            />
+          )}
           Your browser does not support this video.
         </video>
       </div>
