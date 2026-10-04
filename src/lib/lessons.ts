@@ -13,6 +13,31 @@ export type Lesson = {
 
 export const lessons: Lesson[] = [
   {
+    slug: "iabp-impella-icu",
+    title: "Balloon pump and Impella in the ICU: a 3D lesson",
+    subtitle:
+      "32 scenes in 3D with a live monitor. Balloon pump: position, inflation and deflation, the five points at 1:2, the four timing errors, triggers, insertion, bedside checklist and weaning. Impella: pump parts, models, pressure–volume loop, insertion, echo position at 3.5 cm, console signals, position and suction alarms, purge, haemolysis and weaning. Then a comparison and six checks for each round.",
+    durationLabel: "23 min",
+    videoSrc: "/videos/iabp-impella-icu.mp4",
+    poster: "/videos/iabp-impella-icu-poster.png",
+    sources: [
+      "Topol & Griffin, Manual of Cardiovascular Medicine 5e, PDF pp. 736, 738–742, 744–745, 748, 750–752, 754–755",
+      "Irwin and Rippe's Intensive Care Medicine 9e, PDF pp. 6096, 6711, 6713–6715, 6729, 6732–6736, 6746",
+      "Grossman & Baim's Cardiac Catheterization, Angiography, and Intervention, PDF pp. 1438–1443, 1449",
+      "Oh's Intensive Care Manual 9e, PDF pp. 861–864, 876",
+      "Marino's The ICU Book 5e, PDF pp. 293, 295–296",
+      "Ragosta, Textbook of Clinical Hemodynamics 2e, PDF pp. 240, 243–244",
+      "Textbook of Critical Care 8e, PDF pp. 578, 914, 917",
+      "Handbook of Cardiac Critical Care and Anaesthesia, PDF pp. 312–313",
+      "ESC Textbook of Intensive and Acute Cardiovascular Care 3e, PDF pp. 391–392",
+      "Hanna, Practical Cardiovascular Hemodynamics, PDF pp. 193, 196",
+      "ASE's Comprehensive Echocardiography 3e, PDF p. 1109",
+      "Miller's Anesthesia 10e, PDF p. 1966",
+    ],
+    disclaimer:
+      "The heart, the pressure traces, the console, the X-ray and the echo are original schematic drawings, not patient recordings or device screens. Every clinical statement is cited to book and page on the screen. Educational aid for supervised training — follow the device manual and your unit protocol.",
+  },
+  {
     slug: "asd-2d-echo",
     title: "Atrial septal defect on 2D echo",
     subtitle:
