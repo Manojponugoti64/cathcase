@@ -140,6 +140,66 @@ export const lessons: Lesson[] = [
     disclaimer:
       "Local textbook teaching aid with page-linked source panels. Not an independent emergency protocol or substitute for supervised electrophysiology training.",
   },
+  {
+    slug: "bifurcation-pci-3d",
+    title: "Bifurcation PCI in 3D: from Medina to the final POT",
+    subtitle:
+      "17 scenes in 3D. Name the lesion (Medina), size it (Finet), see why the side branch closes (plaque and carina shift), choose one stent or two, then provisional step by step: jailed wire, stent sized to the distal branch, POT, distal-cell recross, kiss and final POT. Then TAP, culotte, DK crush and V/SKS, the traps, two worked cases and a checklist.",
+    durationLabel: "8 min",
+    videoSrc: "/videos/bifurcation-pci-3d.mp4",
+    poster: "/videos/bifurcation-pci-3d-poster.png",
+    sources: [
+      "Textbook of Interventional Cardiology 8e, Ch 23, PDF pp. 504–519; Table 23.1 p. 519; 5-6-7-8 rule p. 528",
+      "Grossman & Baim's Cardiac Catheterization, PDF pp. 799, 1702",
+      "Jyotsna et al., Coronary Bifurcation Lesion Management (WINCARS 2020), pp. 138–150",
+      "Practical Handbook of Advanced Interventional Cardiology: Tips and Tricks 4e, PDF pp. 217–218, 224–225, 229",
+      "Kerala Journal of Cardiology, Sept 2026, Bifurcation Angioplasty – The Editors' Cut, PDF pp. 410–411",
+      "Braunwald's Heart Disease, PDF pp. 1003, 1007",
+      "IVUS Made Easy 2e, PDF pp. 47, 70",
+      "TANCS 2026, LCx ostium – Achilles heel in LM intervention (EAPCI/EBC 2026 consensus)",
+    ],
+    disclaimer:
+      "The vessel, stents, balloons and wires are original 3D schematics, not patient anatomy. Textbook figures are cited, not reproduced. The two cases are teaching examples. Educational aid for supervised training — follow your operator and unit protocol.",
+  },
+  {
+    slug: "culotte-3d",
+    title: "Culotte stenting in 3D",
+    subtitle:
+      "17 scenes. When to choose culotte, sizing for similar branches, then every step in 3D with a tracker for three POTs and one kiss: stent the angulated branch, POT, rewire through the struts, second stent with a 3–5 mm overlap, POT, rewire, kiss and final POT. Why the double layer is stronger, provisional culotte as a bail-out, the trials, the traps, two cases and a checklist.",
+    durationLabel: "7 min",
+    videoSrc: "/videos/culotte-3d.mp4",
+    poster: "/videos/culotte-3d-poster.png",
+    sources: [
+      "Textbook of Interventional Cardiology 8e, PDF pp. 507, 511, 513–514, 519",
+      "Non-Pushing PCI Techniques, PDF pp. 207–208, 240–242, 250",
+      "Practical Handbook of Advanced Interventional Cardiology: Tips and Tricks 4e, PDF pp. 228–230, 349",
+      "Jyotsna et al., Coronary Bifurcation Lesion Management (WINCARS 2020), pp. 147–149",
+      "Grossman & Baim's Cardiac Catheterization, PDF p. 1703",
+      "Kerala Journal of Cardiology, Sept 2026, PDF pp. 410–411",
+      "Braunwald's Heart Disease, PDF p. 1003",
+    ],
+    disclaimer:
+      "The vessel, stents, balloons and wires are original 3D schematics, not patient anatomy. Textbook figures are cited, not reproduced. The two cases are teaching examples. Educational aid for supervised training — follow your operator and unit protocol.",
+  },
+  {
+    slug: "dk-crush-3d",
+    title: "DK crush in 3D",
+    subtitle:
+      "17 scenes. When to choose double kissing crush, sizing, then every step in 3D with a tracker for two kisses and two POTs: side-branch stent 1–2 mm into the main branch, remove the wire, balloon crush and POT, mid-cell recross and kiss 1, main-branch stent, POT, recross, kiss 2 and final POT. Why DK beats classic crush, imaging targets, DKCRUSH-II, III and V, the traps, two cases and a checklist.",
+    durationLabel: "7 min",
+    videoSrc: "/videos/dk-crush-3d.mp4",
+    poster: "/videos/dk-crush-3d-poster.png",
+    sources: [
+      "Textbook of Interventional Cardiology 8e, PDF pp. 505, 507, 516, 519, 528, 1336–1337",
+      "Practical Handbook of Advanced Interventional Cardiology: Tips and Tricks 4e, PDF pp. 224–225, 358–360",
+      "Kerala Journal of Cardiology, Sept 2026, PDF pp. 410–411",
+      "Jyotsna et al., Coronary Bifurcation Lesion Management (WINCARS 2020), p. 148",
+      "Braunwald's Heart Disease, PDF p. 1003",
+      "TANCS 2026, LCx ostium talk (DKCRUSH-V 3-year, EBC MAIN)",
+    ],
+    disclaimer:
+      "The vessel, stents, balloons and wires are original 3D schematics, not patient anatomy. Textbook figures are cited, not reproduced. The two cases are teaching examples. Educational aid for supervised training — follow your operator and unit protocol.",
+  },
 ];
 
 export function getLesson(slug: string) {
