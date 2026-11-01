@@ -200,6 +200,41 @@ export const lessons: Lesson[] = [
     disclaimer:
       "The vessel, stents, balloons and wires are original 3D schematics, not patient anatomy. Textbook figures are cited, not reproduced. The two cases are teaching examples. Educational aid for supervised training — follow your operator and unit protocol.",
   },
+  {
+    slug: "tap-3d",
+    title: "TAP stenting in 3D",
+    subtitle:
+      "15 scenes. T-stenting and small protrusion as the bail-out after provisional: when to choose it (wide angle), sizing, then every step in 3D — provisional stent and POT, side branch still poor, side-branch stent 1–2 mm into the main branch with a balloon waiting, both inflated together to make the neo-carina, pull back and kiss, final POT proximal to the neo-carina. BBK II, the traps, two cases and a checklist.",
+    durationLabel: "6 min",
+    videoSrc: "/videos/tap-3d.mp4",
+    poster: "/videos/tap-3d-poster.png",
+    sources: [
+      "Textbook of Interventional Cardiology 8e, PDF pp. 507, 509, 511–512, 518–519, 528",
+      "Practical Handbook of Advanced Interventional Cardiology: Tips and Tricks 4e, PDF pp. 221, 356",
+      "Kerala Journal of Cardiology, Sept 2026, PDF pp. 410–411",
+      "Jyotsna et al., Coronary Bifurcation Lesion Management (WINCARS 2020), pp. 142, 148",
+      "TANCS 2026, DK-T technique talk",
+    ],
+    disclaimer:
+      "The vessel, stents, balloons and wires are original 3D schematics, not patient anatomy. Textbook figures are cited, not reproduced. The two cases are teaching examples. Educational aid for supervised training — follow your operator and unit protocol.",
+  },
+  {
+    slug: "mini-crush-3d",
+    title: "Mini-crush in 3D",
+    subtitle:
+      "16 scenes. When to choose mini-crush, sizing, 7 Fr or 6 Fr step crush, then every step in 3D — both stents positioned, side-branch stent pulled back 1–2 mm, side-branch stent deployed and its wire removed, main-branch stent crush and POT, mid-cell recross with a small then a large balloon, final kiss and POT. Why mini not classic, a real left-main case, CACTUS and Nordic, the traps, two cases and a checklist.",
+    durationLabel: "6 min",
+    videoSrc: "/videos/mini-crush-3d.mp4",
+    poster: "/videos/mini-crush-3d-poster.png",
+    sources: [
+      "Textbook of Interventional Cardiology 8e, PDF pp. 505, 507, 514–516, 519",
+      "Practical Handbook of Advanced Interventional Cardiology: Tips and Tricks 4e, PDF pp. 85, 222–223, 358–359",
+      "Kerala Journal of Cardiology, Sept 2026, PDF pp. 410–411",
+      "Jyotsna et al., Coronary Bifurcation Lesion Management (WINCARS 2020), p. 142",
+    ],
+    disclaimer:
+      "The vessel, stents, balloons and wires are original 3D schematics, not patient anatomy. Textbook figures are cited, not reproduced. The two cases are teaching examples. Educational aid for supervised training — follow your operator and unit protocol.",
+  },
 ];
 
 export function getLesson(slug: string) {
